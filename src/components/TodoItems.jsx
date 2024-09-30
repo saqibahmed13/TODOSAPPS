@@ -63,7 +63,7 @@ const TodoItems = ({ text, id, isComplete, isEditing, deleteTodo, toggle, editTo
         onClick={() => {
           deleteTodo(id);
         }}
-        className="w-3.5 cursor-pointer"
+        className="w-3.5 cursor-pointer mr-3"
         src={delete_icon}
         alt="Delete"
       />
