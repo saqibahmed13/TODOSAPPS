@@ -102,6 +102,7 @@ const Todo = () => {
         </div>
 
         {/* todoList */}
+        <div className="max-h-60 overflow-y-auto">
         <div>
           {todoList.map((item, index) => {
             return (
@@ -119,6 +120,7 @@ const Todo = () => {
             );
           })}
         </div>
+      </div>
       </div>
     </div>
   );
